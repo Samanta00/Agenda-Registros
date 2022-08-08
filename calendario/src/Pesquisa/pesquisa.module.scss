@@ -1,0 +1,103 @@
+.input{
+   color: black;
+      width: 100%;
+      
+
+}
+.titulo{
+    color: greenyellow;
+    font-size: 3.5em;
+    text-align: center;
+    margin-top: 2vw;
+}
+table,td,th{
+border: 1px solid aqua;
+width: 8vw;
+}
+
+table{
+    width: 500px;
+   table-layout: fixed;
+    border-collapse: separate;
+    
+}
+th,td{
+    height: 50px;
+    vertical-align: middle;
+    text-align: center;
+  
+}
+th{
+    background-color: #bd48eb;
+    
+
+  
+}
+
+
+.botao{
+    background-color: #bd48eb;
+    border-radius: 3px;
+    box-shadow: 2px 4px 4px #0000009F;
+    color: #272626;
+    cursor: pointer;
+    font-size: 1.25rem;
+    padding: 16px;
+    margin-right: 2vw;
+    width: 150px;
+    &:active {
+      background-color: #bd48eb;
+      box-shadow: 2px 2px 4px #0000009F inset;
+    } 
+}
+.opcoes{
+
+        border-radius: 3px;
+        box-shadow: 2px 4px 4px #0000009F;
+        color: #ffffff;
+        cursor: pointer;
+        font-size: 0.75rem;
+        padding: 16px;
+        margin-right: 2vw;
+        width: 8vw;
+        &:active {
+          background-color: #bb0000;
+          box-shadow: 2px 2px 4px #0000009F inset;
+        } 
+ }
+
+#deletar{
+    background-color: #cf0000;
+}
+#editar{
+    background-color: #34f30d;
+}
+
+.itens{
+
+    display:flex;
+    flex-direction: column;
+   
+    margin-top: 2vw;
+    margin: 6vw;
+      }
+    
+
+.acoes{
+    margin-top: 2vw;
+    display: flex;
+    margin: 1vw;
+    padding: 1vw;
+   
+    
+}
+
+@media screen and (min-width:1280px) {
+    .itens{
+        margin-top: 2vw;
+        margin: 6vw;
+        padding: 2w;
+        display: inline-block;
+        }
+
+  }
